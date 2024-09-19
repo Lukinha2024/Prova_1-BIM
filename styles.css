@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  header {
+    background: #2980b9;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+  }
+  
+  main {
+    flex: 3;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border-radius: 8px;
+  }
+  
+  aside.sidebar {
+    flex: 1;
+    padding: 20px;
+    background-color: #2980b9;
+    color: white;
+    margin-left: 20px;
+    border-radius: 8px;
+  }
+  
+  img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+  }
+  
+  a {
+    color: #2980b9;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  h2,
+  h3,
+  h4 {
+    color: #2980b9;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  table,
+  th,
+  td {
+    border: 1px solid #2980b9;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  footer {
+    background: #2980b9;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  form {
+    background: #34495e;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #2980b9;
+    border-radius: 4px;
+  }
+  
+  button {
+    margin-top: 10px;
+    background: #2980b9;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #1a5276;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  
+    main,
+    aside.sidebar {
+      margin-left: 0;
+      margin-bottom: 20px;
+    }
+  
+    img {
+      width: 150px;
+    }
+  }
